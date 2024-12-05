@@ -128,6 +128,7 @@ class RuntimeBlockStateRegistry{
 
 	/**
 	 * @return Block[]
+	 * @phpstan-return array<int, Block>
 	 */
 	public function getAllKnownStates() : array{
 		return $this->fullList;
